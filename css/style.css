@@ -9,8 +9,10 @@
   background-color: #418d63;
 }
 
-html,body{
-    overflow-x: hidden;
+html,
+body {
+  overflow-x: hidden;
+  font-family: Poppins;
 }
 .spinner-border {
   width: 4rem;
@@ -28,11 +30,6 @@ html,body{
   }
 }
 
-body {
-  overflow-x: hidden;
-  font-family: Poppins;
-}
-
 .o-head-section {
   background-image: url(../images/banner.png);
   background-repeat: no-repeat;
@@ -43,17 +40,7 @@ body {
   padding: 10px;
 }
 
-/* .c-phone-img {
-  padding-left: 2.5rem;
-  padding-top: 3rem;
-} */
-
-/* .c-main-content {
-  padding-top: 26rem;
-} */
-
 .c-main-content-heading {
-  /* padding-top: 8rem; */
   font-weight: 600;
   font-size: 2.5rem;
 }
@@ -61,11 +48,6 @@ body {
 .c-heading-color {
   color: #5cc365;
 }
-
-/* .c-main-button {
-  padding-top: 34rem;
-} */
-
 
 .c-btn {
   background-color: #000;
@@ -82,18 +64,6 @@ body {
   width: 100px;
   height: 100px;
 }
-
-/* .o-padding-service-1 {
-  padding-left: 6rem;
-}
-
-.o-padding-service-2 {
-  padding-left: 4rem;
-}
-
-.o-padding-service-3 {
-  padding-left: 4rem;
-} */
 
 .o-section-2-layout {
   background-color: #d5eddf;
@@ -239,8 +209,6 @@ body {
   border: none;
   outline: none;
   border-bottom: #d3d3d3 solid 1px;
-  /* height: 3rem;
-  width: 35rem; */
 }
 
 .input-field:focus {
@@ -250,70 +218,22 @@ body {
   box-shadow: none;
 }
 
-/* @media only all and (min-width: 360px) and (orientation: portrait) {
-  .c-phone-image {
-    width: 90%;
-    height: 90%;
-    padding-top: 30rem;
-  }
-  .o-padding-service-1 {
-    padding-top: 56rem;
-  }
-  .c-main-content-heading {
-    font-size: 2rem;
-  }
-  .c-heading-color br {
-    display: none;
-  }
-  .c-main-content {
-    padding-top: 18rem;
-  }
-  .c-main-button {
-    padding-top: 30rem;
-  }
-  .c-logo {
-    padding-left: 6rem;
-  }
-  .c-ask-question {
-    position: relative;
-  }
-  .c-ask-img {
-    position: absolute;
-    z-index: 9999;
-  }
-  .accordion {
-    padding-top: 22rem;
-  }
-  .c-contact-btn {
-    margin-bottom: 2rem;
-  }
-  .input-field {
-    border: none;
-    outline: none;
-    border-bottom: #d3d3d3 solid 1px;
-    height: 3rem;
-    width: 15rem;
-  }
-  .o-contact-us {
-    height: 122vh;
-    width: 100%;
-  }
-  .c-bg-mobile {
-    background-color: #3fbc61;
-  }
-  .c-footer-txt {
-    font-size: small !important;
-    padding-left: 2rem;
-  }
-} */
-
 @media screen and (min-width: 768px) {
-  .services{
-  padding-top: 12rem;
-}
+  .services {
+    padding-top: 12rem;
+  }
 }
 @media screen and (max-width: 768px) {
-  .c-bg-mobile{
-  background-color: #bccec4;
+  .c-bg-mobile {
+    background-color: #bccec4;
+  }
 }
+
+@media screen and (min-width: 940px) and (max-width: 1674px) {
+  .o-head-section {
+    background: #fff;
+  }
+  .c-contact-us {
+    display: none;
+  }
 }
