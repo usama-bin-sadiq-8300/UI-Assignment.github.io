@@ -217,10 +217,23 @@ body {
   border-bottom: #000 solid 1px;
   box-shadow: none;
 }
-
+.c-footer{
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.c-footer .c-footer-txt{
+  text-align: center;
+}
 @media screen and (min-width: 768px) {
   .services {
     padding-top: 12rem;
+  }
+}
+@media screen and (max-width: 360px) {
+.services {
+    padding-top: 2rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -235,5 +248,8 @@ body {
   }
   .c-contact-us {
     display: none;
+  }
+  .c-bg-mobile {
+    background-color: #bccec4;
   }
 }
